@@ -4,17 +4,17 @@ a meal picker app designed and built by Rachel Sokol for learning purposes
 🛠 App Structure Overview
 Frontend Stack:
 
-HTML/CSS/JS (or we can use React if you prefer)
+React
 
 Canvas or SVG for the Spinwheel Animation
 
-Firebase SDK for data access
+Firebase SDK for data access: https://spinmealdb-default-rtdb.firebaseio.com/
 
 Core Features:
 
-Spinwheel UI
+Colorful Spinwheel UI
 
-Spins on click and selects a random meal from chosen category
+Spins on click and selects a random meal from chosen category or full meal plan
 
 Single Meal View
 
