@@ -4,13 +4,14 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, get, child } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCxD4kA4fecwd__mkNfQ0T8RBbs88kIDCw",
+  authDomain: "spinmealdb.firebaseapp.com",
+  databaseURL: "https://spinmealdb-default-rtdb.firebaseio.com",
+  projectId: "spinmealdb",
+  storageBucket: "spinmealdb.firebasestorage.app",
+  messagingSenderId: "773247055848",
+  appId: "1:773247055848:web:ee834dbf47c07bef1e165d",
+  measurementId: "G-02K8L9DMEV"
 };
 
 const app = initializeApp(firebaseConfig);
